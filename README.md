@@ -1,6 +1,7 @@
 # Skill Manager
 
 A CLI tool for managing Claude Code agent skills from a local repository. Easily copy skills to your current working directory with an interactive selection interface.
+(created by vibe-coding)
 
 ## Installation
 
