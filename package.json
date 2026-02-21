@@ -1,0 +1,31 @@
+{
+  "name": "skill-manager",
+  "version": "0.1.0",
+  "description": "A CLI tool for managing Claude Code skills from a local repository",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "skill-manager": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "keywords": [
+    "claude-code",
+    "skills",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.0",
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
